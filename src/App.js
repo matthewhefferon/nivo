@@ -1,9 +1,10 @@
 import './App.css';
+import Line from './components/Line';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Nivo Rocks!</h1>
+    <div style={{ height: 500 }} className="App">
+      <Line />
     </div>
   );
 }
