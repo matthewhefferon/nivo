@@ -1,5 +1,5 @@
 import './App.css';
-import Line from './components/Line';
+import Line from './components/Pie';
 
 function App() {
   return (
