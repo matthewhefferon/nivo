@@ -1,11 +1,11 @@
 import React from "react";
 import { ResponsiveBar } from "@nivo/bar";
-import bardata from "../data/Bar.json";
+import bar from "../data/bar.json";
 
 export const Bar = () => {
   return (
     <ResponsiveBar
-      data={bardata}
+      data={bar}
       keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
       indexBy="country"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}

@@ -1,11 +1,11 @@
 import React from "react";
 import { ResponsiveLine } from "@nivo/line";
-import linedata from "../data/Line.json";
+import line from "../data/line.json";
 
 const Line = () => {
   return (
     <ResponsiveLine
-      data={linedata}
+      data={line}
       margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
       xScale={{ type: "point" }}
       yScale={{
